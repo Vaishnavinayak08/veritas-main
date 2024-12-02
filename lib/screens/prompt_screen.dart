@@ -34,14 +34,14 @@ class PromptScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 20.0, right: 20),
               child: Text(
-                'We dont value your opinion',
+                'We value your opinion',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.dmSerifDisplay(fontSize: 45),
               ),
             ),
             const SizedBox(height: 50),
             CustomButtons(
-  text: 'For faculties',
+  text: 'For faculty',
   onTap: () async {
     Box box = await context.read<HiveRepository>().openFacultytBox();
     context.read<MessagesBloc>().add(MessagesLoadEvent(box: box));
