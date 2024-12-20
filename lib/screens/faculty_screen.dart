@@ -37,6 +37,7 @@ class FacultyScreen extends StatelessWidget {
                       ),
                       actions: [
                         TextButton(
+                          
                           onPressed: () {
                             Navigator.of(context).pop(); // Close the dialog
                           },
