@@ -44,3 +44,4 @@ app.*.map.json
 
 # Secrets
 api_keys.dart
+.vscode/templates

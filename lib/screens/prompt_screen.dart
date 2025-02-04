@@ -15,10 +15,12 @@ class PromptScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     
+     
     return Scaffold(
       appBar: AppBar(
           title: Text(
-        'veritas',
+        'Confesso',
         style: GoogleFonts.inter(fontSize: 30, fontWeight: FontWeight.bold),
       )),
       body: SingleChildScrollView(
@@ -29,7 +31,7 @@ class PromptScreen extends StatelessWidget {
               padding: EdgeInsets.only(left: 8.0, right: 8),
               child: SizedBox(
                   child: Image(
-                      image: AssetImage('assets/images/Page_not_found.png'))),
+                      image: AssetImage('assets/images/vcetlogo.jpg'))),
             ),
             Padding(
               padding: const EdgeInsets.only(left: 20.0, right: 20),

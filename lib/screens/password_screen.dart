@@ -17,6 +17,7 @@ class PasswordScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+   
     final TextEditingController passwordController = TextEditingController();
 
     return Scaffold(
@@ -24,7 +25,7 @@ class PasswordScreen extends StatelessWidget {
       appBar: AppBar(
         automaticallyImplyLeading: false,
             title: Text(
-          'veritas',
+          'Confesso',
           style: GoogleFonts.inter(fontSize: 30, fontWeight: FontWeight.bold),
         )),
       body: Padding(
@@ -34,7 +35,7 @@ class PasswordScreen extends StatelessWidget {
              
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Image(image: AssetImage('assets/images/Welcome.png')),
+              const Image(image: AssetImage('assets/images/vcetlogo.jpg')),
               Padding(
                 padding: const EdgeInsets.only(left: 20.0, right: 20),
                 child: Text(
