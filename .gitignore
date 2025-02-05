@@ -43,5 +43,5 @@ app.*.map.json
 /android/app/release
 
 # Secrets
-api_keys.dart
+
 .vscode/templates
